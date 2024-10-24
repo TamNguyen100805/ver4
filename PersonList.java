@@ -1,4 +1,4 @@
-package BaiTapOOP_Student_Ver4;
+package ver4;
 
 import java.util.ArrayList;
 
@@ -61,9 +61,7 @@ public class PersonList {
         if (personList.isEmpty()) {
             return null;
         }
-
         Student topStudent = null;
-
         for (Person person : personList) {
             if (person instanceof Student student) {
                 if (topStudent == null || student.getGPA() > topStudent.getGPA()) {

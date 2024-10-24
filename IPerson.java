@@ -1,4 +1,4 @@
-package BaiTapOOP_Student_Ver4;
+package ver4;
 
 interface IPerson {
     void addPerson();
