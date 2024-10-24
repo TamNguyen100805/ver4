@@ -48,7 +48,6 @@ public final class Teacher extends Person {
 
     @Override
     public void updatePerson(String id) {
-        // logic update teacher's information
     }
 
     public void enterTeacherInfo() {
